@@ -1,0 +1,29 @@
+.nome_perfil{
+    font-size: 36px;
+    text-align: center;
+    width: 511;
+    height: 33;
+    color: #003366;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.paragrafo_perfil {
+    font-size: 25px;
+    color: #003366;
+}
+
+.p{
+    font-size: 25px;
+    color: #003366;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+section {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    /* hei400pxght: ; */
+}

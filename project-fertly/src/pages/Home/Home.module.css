@@ -1,0 +1,240 @@
+/* Home.module.css */
+.center {
+  margin: 0 auto; /* Isso centralizará a página horizontalmente */
+  display: flex;
+  flex-direction: column; /* Alteração para exibir os itens em uma coluna */
+  align-items: center; /* Isso alinhará o conteúdo verticalmente */
+  padding: 0 60px;
+}
+
+.img_Fundo {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+}
+
+.header_container {
+  display: flex;
+  width: 100%;
+  z-index: 10;
+}
+
+.left_column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  justify-content: center;
+  width: 50%;
+  /* flex: 1; */
+  /* padding: 20px; */
+  /* background-color: aquamarine; */
+}
+
+.right_column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  padding: 20px;
+}
+
+.text_one {
+  color: #033366;
+}
+
+.text_one h1 {
+  font-size: 43px;
+}
+
+.text_two h2 {
+  color: #033366;
+  font-weight: 500;
+}
+
+.text_two span {
+  color: #F2C0A6;
+  font-size: 50px;
+}
+
+.service {
+  margin-top: 80px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #033366;
+}
+
+.service p {
+  font-weight: 500;
+}
+
+
+.section_one, .section_two, .section_three, .section_four {
+  display: flex;
+  align-items: center;
+  margin: 70px 0;
+  height: 400px;
+  
+}
+
+.img_advocacy img, .img_psychology img, .img_physiotherapy img, .img_doula img {
+width: 400px;
+z-index: 10;
+}
+
+.text_advocacy, .text_physiotherapy {
+  /* position: relative; */
+  justify-content: space-between;
+  background-color: #FBF2E6;
+  height: 100%;
+  padding: 50px;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text_psychology, .text_doula {
+  justify-content: space-between;
+  height: 100%;
+  padding: 50px;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #F2E0D9;
+}
+
+.frente {
+  background-image: url('../img/onda.png');
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+  
+}
+
+.frente .Frenteparagrafo{
+  text-align: center;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 22px;
+  font-weight: 700;   /* deixa negrito :) */
+  padding: 80px;
+ 
+}
+
+.frente .Frenteh1, .FrenteImg{
+margin-right: 600px;
+margin-top: 20px;
+} 
+
+ .Pfrequentes{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  max-width: 600px;
+  text-align: center;
+  gap: 40px;
+  margin: 50px 0;
+
+
+
+} 
+
+ .faq {
+  color: #003366;
+  text-align: center;
+}
+
+.Pfrequentes summary{
+  background-color: #D9D9D9;
+  padding:2%;
+  color: #003366;
+}
+
+.Pfrequentes .detalhe{
+  width: 400px;
+  background-color: #D9D9D9;
+  padding:2%;
+  color: #003366;
+  border-radius: 5px;
+  gap: 50px;
+
+}
+
+.replica{
+  display: flex;
+  gap: 60px;
+  flex-direction: column;
+  margin-bottom: 90px;
+ 
+}
+
+.replica1, .replica2, .replica3 {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #003366;
+  height: 350px;
+  margin-bottom: 20px auto;
+}
+
+.replica1 .replica2 .replica3 a {
+  text-decoration: none;
+  color: #003366;
+  margin-top: 20px;
+  width: 300px;
+  gap: 40px;
+}
+
+.replica1 a{
+  text-decoration: none;
+  margin-top: 15px;
+  color: #003366 ;
+}
+
+.replica2 a{
+  text-decoration: none;
+  margin-top: 22px;
+  color: #003366 ;
+}
+
+.replica3 a{
+  text-decoration: none;
+  margin-top: 20px;
+  color: #003366 ;
+}
+.replica1 .replica2 .replica3 a:hover {
+  text-decoration: none;
+  color: #2790f9;
+}
+
+.tituloB{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+ 
+}
+
+.tituloB hr{
+  width: 700px;
+  height: 2px;
+  margin-top: 5px;
+}
+
+
+.imagemReplica{
+  display: flex;
+  gap: 40px;
+}

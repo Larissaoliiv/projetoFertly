@@ -1,0 +1,83 @@
+ .nome_p { display: flex;
+    justify-content: left;
+    flex-direction: column;
+    font-size: 36px;
+    text-align: center;
+    width: 511;
+    height: 33;
+    color: #003366;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.p{
+    font-size: 25px;
+    color: #003366;
+    margin-left: auto;
+    margin-right: auto; 
+} 
+ .section{
+    text-align: center;
+    background: linear-gradient(#ffff, rgb(252, 229, 201));
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0px; 
+}
+.sessao{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.Nome_perfil{
+    gap: 50px;
+    display: flex;
+  
+}
+
+.perfil_advogada{
+    gap: 20px;
+}
+
+.ProfissaoPerfil{
+    margin-top: 10px;
+    
+}
+
+.estruturaPerfil{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+
+}
+
+.Paragrafo_perfil{
+    text-align: right;
+    color: #003366; 
+    display: flex;
+    
+}
+
+h2{
+    color: #003366;
+    text-align: left;
+}
+
+p{
+    color: #003366; 
+    text-align: center; 
+}
+
+h3{
+    color: #003366; 
+    text-align: center; 
+}
+
+.botaoAgendar {
+  margin: 60px 0;
+}

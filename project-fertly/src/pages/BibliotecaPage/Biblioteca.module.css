@@ -1,0 +1,87 @@
+
+.bible{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 80px;
+  color: #003366;
+  font-size: 20px;
+}
+
+.bot{
+  display: flex;
+  gap: 50px;
+  margin-bottom: 70px;
+
+}
+
+.bot button{
+  background-color: #fff;
+  color: #003366;
+  border: 1px solid #003366;
+  
+}
+
+.imagens{
+   display: flex;
+   gap: 40px;
+}
+
+.conteiner{
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  margin-bottom: 90px;
+}
+.tituloBiblioteca{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+ 
+}
+
+.tituloBiblioteca hr{
+   width: 500px;
+   height: 2px;
+   margin-top: 5px;
+}
+
+.busca{
+  position: relative;
+  border-radius:15px;
+  width:300px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+
+.iconInput {
+  position: absolute;
+  right: 3%;
+}
+
+.conteinerCard {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #003366;
+}
+
+.conteinerCard a {
+  text-decoration: none;
+  color: #003366;
+  margin-top: 10px;
+  width: 300px;
+  gap: 40px;
+}
+
+.conteinerCard a:hover {
+  text-decoration: none;
+  color: #2790f9;
+}
+
+
+
+

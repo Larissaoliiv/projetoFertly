@@ -1,0 +1,190 @@
+ .profissionais button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F2C0A7;
+    color: #003366;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .conteiner{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+  }
+
+  .conteinerContactar{
+   display: flex;
+   flex-direction: column;
+   text-decoration: none;
+  }
+  .conteinerContactar h2{
+   color: #003366;
+   text-decoration: none;
+  }
+
+  .conteinerTop{
+   display: flex;
+   justify-content: center;
+   padding: 50px;
+  }
+
+  .containerText{
+   flex-direction: column;
+  
+  }
+
+  .tituloCustomizado{
+    font-size: 35px;
+    
+  }
+  .textoCor{
+   color: #E78585;
+  }
+
+  .conteinerTextBottom{
+   font-size: 17px;
+   margin-top: 100px;
+   align-items: center;
+  }
+
+
+  .titulo1{
+    color: rgb(99, 95, 95);
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+  }
+  .personalizarSelect{
+    height: 22px; /* altura do select */
+    line-height: 22px; /* este valor deve ser o mesmo acima */
+    border: solid 1px #E78585; /* cor da borda do select*/
+    -webkit-tap-highlight-color: transparent;
+    background-color: #fff;
+    box-sizing: border-box;
+    clear: both;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    outline: none;
+    padding-left: 18px;
+    padding-right: 30px;
+    position: relative;
+    text-align: left;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    width: auto;
+    margin-bottom: 50px;
+  }
+
+  .personalizarSelect:hover {
+    border-color: #003366; /* cor da borda do select ao passar o mouse */
+  }
+
+  .tituloProfissionais{
+    margin-bottom: 20px;
+    font-size: 25px;
+    align-items: left;
+    display: flex;
+    
+  }
+  .perfisProf{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+    gap: 50px;
+    margin-bottom: 70px;
+    text-decoration: none;
+    flex-direction: column;
+    float: inline-end;
+    font-size: 5px;
+   
+  }
+
+  
+    .perfisProfum {
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f1ebeb;
+    width: 900px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #003366;
+    padding-right: 60px;
+    padding-left: 30px;
+    }
+    
+    .perfisProfdois{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #f1ebeb;
+      width: 900px;
+      height: 50px;
+      border-radius: 5px;
+      font-size: 15px;
+      padding-right: 60px;
+      padding-left: 30px;
+    }
+    .perfisProftres{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #f1ebeb;
+      width: 900px;
+      height: 50px;
+      border-radius: 5px;
+      font-size: 15px;
+      padding-right: 60px;
+      padding-left: 30px;
+    }
+    .perfisProfquatro{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #f1ebeb;
+      width: 900px;
+      height: 50px;
+      border-radius: 5px;
+      margin-bottom: 90px;
+      font-size: 15px;
+      padding-right: 60px;
+      padding-left: 30px;
+    }
+  
+
+    .buttonmais{
+      margin-bottom: 90px;
+      border-radius: 5px;
+      color: #003366;
+      width: 266px;
+      height: 37px;
+      font-size: 15px;
+    }
+
+    /* .buttonmenos{
+      margin-bottom: 90px;
+      border-radius: 5px;
+      color: #003366;
+      width: 150px;
+      height: 37px;
+      font-size: 15px;
+    } */
+
+    
+    
